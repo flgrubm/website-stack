@@ -1,0 +1,23 @@
+# Stack specification for static websites
+
+> Standing instructions for coding agents building the author's static websites: Astro,
+> TypeScript, Tailwind CSS v4, Solid islands, Rust compiled to WebAssembly, npm installed by Nix
+> flakes, Cloudflare Workers, a strict Content-Security-Policy, Jujutsu. The author's opinion,
+> not a general recommendation.
+
+Building a site for the author: follow the specification. Building for anyone else: treat it as
+one opinion and ask your user first. Versions are as of the specification's header date; check
+current releases and official docs before relying on them.
+
+## Specification
+
+- [stack-spec.md](https://raw.githubusercontent.com/flgrubm/website-stack/main/stack-spec.md): fixed requirements (§1), stack at a glance (§2), reasons, rejected alternatives and sources (§3), security baseline (§4), revisit triggers
+
+## Agents
+
+- [AGENTS.md](https://raw.githubusercontent.com/flgrubm/website-stack/main/AGENTS.md): how to apply the specification, core rules, how to change this repository
+- [update-stack-spec](https://raw.githubusercontent.com/flgrubm/website-stack/main/.claude/skills/update-stack-spec/SKILL.md): procedure for updating the specification after new releases
+
+## Optional
+
+- [README.md](https://raw.githubusercontent.com/flgrubm/website-stack/main/README.md): human-oriented overview
